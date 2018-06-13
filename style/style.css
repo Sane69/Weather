@@ -1,0 +1,107 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+
+body {
+	height: 918px;
+	border: 14px solid #2B81AC;
+	background: #3399CC;
+	color: #fff;
+	font-family: "Lucida Sans Unicode";
+}
+
+header {
+	padding: 50px 0 20px;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 26px;
+}
+
+.menu {
+	margin: 0 auto;
+	width: 75%;
+	max-width: 700px;
+}
+
+.country {
+	display: inline-table;
+	border: 3px solid #FFF;
+}
+
+.country li {
+	border: 3px solid #FFF;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 0;
+	font-size: 18px;
+}
+
+ul:hover li:not(:hover){
+	opacity: 0.6;
+}
+
+.small {
+	width: 25%;
+}
+
+.big {
+	width: 50%;
+}
+
+.biggest {
+	width: 100%;
+}
+
+.country li:nth-child(1) {
+	background-color: #39C;
+}
+.country li:nth-child(2) {
+	background-color: #33CCCC;
+}
+.country li:nth-child(3) {
+	background-color: #996699;
+}
+.country li:nth-child(4) {
+	background-color: #C24747;
+}
+.country li:nth-child(5) {
+	background-color: #E2674A;
+}
+.country li:nth-child(6) {
+	background-color: #FFCC66;
+}
+.country li:nth-child(7) {
+	background-color: #99CC99;
+}
+.country li:nth-child(8) {
+	background-color: #669999;
+}
+.country li:nth-child(9) {
+	background-color: #CC6699;
+}
+.country li:nth-child(10) {
+	background-color: #339966;
+}
+.country li:nth-child(11) {
+	background-color: #666699;
+}
+
+.list-icon {
+	margin: 10px 0 0 0;
+}
+
+i {
+	margin: 0 5px;
+	font-size: 30px;
+}
+
+footer{
+	margin: 20px 0 0 0;
+}
+
